@@ -1,5 +1,4 @@
 # Computer Status
-# This would be a neet place to try using a GUI to enter the computer name
 $ComputerNames = Read-Host -Prompt "Please Enter the computer lists you wish to get system status from (separated by commas)"
 $Computers = $ComputerNames -split ','
 
