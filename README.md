@@ -1,7 +1,8 @@
-In this project I created two  Powershell Scripts that will scand and detect any threats using Microsoft Defender and get a system update status. 
-A main resource utilized during this project was Microsoft Learn. Here is the link that explains further the synthax utilized in the scripts: https://learn.microsoft.com/en-us/powershell/module/defender/start-mpscan?view=windowsserver2022-ps
+In this project I created two  PowerShell Scripts that will scan and detect any threats using Microsoft Defender and get a system update status. 
+A main resource utilized during this project was Microsoft Learn. Here is the link that explains further the syntax utilized in the scripts: https://learn.microsoft.com/en-us/powershell/module/defender/start-mpscan?view=windowsserver2022-ps
 
-Disclaimer:
+# Disclaimer:
+
 The content provided in this GitHub repository/gist is for educational and informational purposes only. The owner of this repository/gist makes no representations as to the accuracy, completeness, currentness, suitability, or validity of any information in the content. 
 
 The owner will not be liable for any errors, omissions, or delays in this information or any losses, injuries, or damages arising from its display or use. All information is provided on an as-is basis. 
