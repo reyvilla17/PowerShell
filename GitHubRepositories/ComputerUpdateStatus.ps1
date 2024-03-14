@@ -1,4 +1,5 @@
 # Computer Status
+# This would be a neet place to try using a GUI to enter the computer name
 $ComputerNames = Read-Host -Prompt "Please Enter the computer lists you wish to get system status from (separated by commas)"
 $Computers = $ComputerNames -split ','
 
@@ -45,3 +46,5 @@ $csvFilePath = "C:\Users\Administrator.ADATUM\Documents\sess.csv"
 $Results | Export-Csv -Path $csvFilePath -NoTypeInformation
 
 Write-Host "System status results have been exported to $csvFilePath"
+
+#Good use of comments, I would guess this would be a good schedualed task.  In stead of a CSV outfile maybe try an email.  Its alot more work and complicated but worth experimenting with.   
